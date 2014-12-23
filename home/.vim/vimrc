@@ -37,13 +37,15 @@ set hlsearch
 set incsearch
 set hidden
 
-set tabstop=2
-set softtabstop=2
+set tabstop=4
+set softtabstop=4
 set expandtab
 
-set shiftwidth=2
+set shiftwidth=4
 set autoindent
 set cino+=(0)
+
+autocmd FileType python\|ruby\|sh\|javascript set tabstop=2 softtabstop=2 shiftwidth=2
 
 set wildmenu "visual command autocomplete
 set wildmode=longest,list,full
